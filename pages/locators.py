@@ -14,3 +14,6 @@ class ProductPageLocators():
     PRICE_BASKET_MESSAGE_LINK = (By.CSS_SELECTOR, '#messages > .alert:nth-of-type(3) > .alertinner > p:nth-of-type(1)')
     PRICE_IN_MESSAGE_LINK = (By.CSS_SELECTOR, '#messages > .alert:nth-of-type(3) > .alertinner > p:nth-of-type(1) > strong')
     PRODUCT_PRICE_LINK = (By.CSS_SELECTOR, '.product_main > p:nth-of-type(1)')
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
